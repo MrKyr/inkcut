@@ -141,7 +141,7 @@ enamldef DeviceManifest(PluginManifest):
                 id = 'device'
         ActionItem:
             path = '/device/setup'
-            label = QApplication.translate("device", "Setup...")
+            label = QApplication.translate("device", "Device Setup...")
             shortcut = 'Ctrl+Alt+P'
             command = 'inkcut.device.setup'
             icon = menu_icon('printer')
