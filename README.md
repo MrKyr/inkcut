@@ -1,5 +1,7 @@
 # Inkcut
 
+* Add Roland PNC-1200
+
 [![Build Status](https://travis-ci.org/codelv/inkcut.svg?branch=master)](https://travis-ci.org/codelv/inkcut)  [![Downloads](https://pepy.tech/badge/inkcut)](https://pepy.tech/project/inkcut)
 
 An application for controlling 2D plotters, cutters, engravers, and CNC machines. [Project homepage](https://www.codelv.com/projects/inkcut/)
