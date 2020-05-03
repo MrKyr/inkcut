@@ -1,6 +1,8 @@
 # Inkcut
 
 * Add Roland PNC-1200
+* Fix menu entry 'Device > Setup' in mac
+* Show material size in 'mm' in 'Approve Job'
 
 [![Build Status](https://travis-ci.org/codelv/inkcut.svg?branch=master)](https://travis-ci.org/codelv/inkcut)  [![Downloads](https://pepy.tech/badge/inkcut)](https://pepy.tech/project/inkcut)
 
