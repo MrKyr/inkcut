@@ -10,7 +10,8 @@ from inkcut.core.utils import log
 
 
 class HPGLProtocol(DeviceProtocol):
-    scale = Float(1021/90.0)
+    # scale = Float(1021/90.0)
+    scale = Float(11.3002598789)
 
     def connection_made(self):
         #: Initialize in absoulte mode
