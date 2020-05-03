@@ -64,10 +64,10 @@ enamldef JobApprovalDialog(Dialog): dialog:
                     tool_tip = QApplication.translate("job", "Estimated material usage")
                 Label:
                     text << "Size: {}{} x {}{}".format(
-                            round(to_unit(job.model.boundingRect().height(), job.info.units),2),
-                            job.info.units,
-                            round(to_unit(job.model.boundingRect().width(), job.info.units), 2),
-                            job.info.units
+                            round(to_unit(job.model.boundingRect().height(), plugin.units),2),
+                            plugin.units,
+                            round(to_unit(job.model.boundingRect().width(), plugin.units), 2),
+                            plugin.units
                         )
 #                Label:
 #                    text = QApplication.translate("job", "Cost")
